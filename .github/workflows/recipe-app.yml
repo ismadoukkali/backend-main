@@ -74,7 +74,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       id: deploy-to-webapp
       with:
-        app-name: 'ylaraqui-assignment-app-BE-dev-bicep'
+        app-name: 'ismadoukkali-assignment-app-BE-dev-bicep'
         
   deploy-prod:
     if: github.ref == 'refs/heads/main'
@@ -99,5 +99,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       id: deploy-to-webapp
       with:
-        app-name: 'ylaraqui-assignment-app-BE-prod-bicep'
+        app-name: 'ismadoukkali-assignment-app-BE-prod-bicep'
         slot-name: 'Production'
